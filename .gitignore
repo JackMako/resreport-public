@@ -1,0 +1,16 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Rider / JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+
+# Node / frontend
+**/node_modules/
+**/dist/
+
+# Logs
+*.log

@@ -1,0 +1,42 @@
+.dra-output {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.dra-section {
+    margin-bottom: 20px;
+}
+
+.dra-title {
+    text-decoration: underline;
+    text-decoration-color: rgb(40, 188, 242);
+    color: rgb(40, 188, 242);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dra-company {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.dra-list {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 4px;
+}
+
+.dra-list li {
+    margin-bottom: 3px;
+}
+
+.dra-list li::before {
+    content: "•";
+    margin-right: 0.5em;
+}
